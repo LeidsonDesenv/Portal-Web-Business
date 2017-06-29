@@ -1,0 +1,14 @@
+.rounded {
+    border-radius: 8px;
+    margin-bottom:3px ; 
+    
+}
+
+.forte{
+    font-weight: 900;
+}
+.content-custom{
+   width: 70%;
+   margin-top: 3px;
+   border-right: 1px solid rgba(100,100,100,0.3) ;  
+}
