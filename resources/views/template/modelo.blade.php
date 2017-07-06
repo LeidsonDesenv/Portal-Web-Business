@@ -16,7 +16,7 @@
             <a href="#" class=" btn btn-default">Web Business</a>
             <a href="{{url('/')}}" class=" btn btn-primary">Home</a>
             <a href="{{url('cadastro')}}" class=" btn btn-success">Cadastro</a>
-            <a href="#" class=" btn btn-info">Consulta</a>
+            <a href="{{url('showcustomers')}}" class=" btn btn-info">Consulta</a>
             <a href="#" class=" btn btn-warning">Edição</a>
       
       

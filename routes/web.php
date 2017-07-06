@@ -16,7 +16,8 @@ Route::get('/', function () {
 });
 
 Route::get('cadastro', function(){
-    return view('cad');})->name('cadastrar');
-    
-Route::post('save','UserController@add');
+    return view('cad');})->name('cadastrar');    
+
+Route::get('showcustomers', 'Ctrl\CustomerController@show')->name('showcustomers');
+Route::post('addcustomernew','Ctrl\CustomerController@addnew')->name('addcustomers');
 
