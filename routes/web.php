@@ -20,4 +20,8 @@ Route::get('cadastro', function(){
 
 Route::get('showcustomers', 'Ctrl\CustomerController@show')->name('showcustomers');
 Route::post('addcustomernew','Ctrl\CustomerController@addnew')->name('addcustomers');
+Route::get('{valor}/editcustomer','Ctrl\CustomerController@edit');
+Route::post('savealtcustomers/{id}','Ctrl\CustomerController@saveedit')->name('savealtcustomers');
+Route::post('deletacustomer/{id}','Ctrl\CustomerController@deletar');
+
 

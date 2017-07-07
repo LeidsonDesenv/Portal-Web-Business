@@ -9,6 +9,7 @@
     <th>Tel</th>
     <th>Endereço</th>
     <th>UF</th>
+    <th>Editar</th>
     
 </tr>
 @foreach($showtable as $colluns)
@@ -18,6 +19,7 @@
     <td>{{$colluns->phone}}</td>
     <td>{{$colluns->address}}</td>
     <td>{{$colluns->UF}}</td>
+    <td><a class=" btn btn-warning" href="{{url("{$colluns->idCustomer}/editcustomer")}}">Editar</a></td>
 </tr>
     
 @endforeach
